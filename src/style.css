@@ -420,7 +420,7 @@ section.feature{
 	z-index: 3;
 }
 section.feature .feat-tl-1{
-    border-bottom: 71px solid rgba(0,0,0,0.6);
+    border-bottom: 70px solid rgba(0,0,0,0.6);
     border-right: calc(50vw) solid transparent;
     margin-top: -140px;
     position: absolute;
@@ -438,7 +438,7 @@ section.feature .feat-tl-3{
     position: absolute;
 }
 section.feature .feat-tr-1{
-    border-bottom: 71px solid rgba(0,0,0,0.6);
+    border-bottom: 70px solid rgba(0,0,0,0.6);
     border-left: calc(50vw) solid transparent;
     margin-top: -140px;
     position: absolute;
