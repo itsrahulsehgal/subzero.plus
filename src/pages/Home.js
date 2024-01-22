@@ -7,11 +7,11 @@ import Footer from '../components/Footer';
 const Home = () => {
   return (
     <>
-        <div id="background"></div>
-	<div class="mobile-overlay"></div>
+        <div id="background">
       <Header />
       <Main />
       <Footer />
+      </div>
     </>
   );
 };
