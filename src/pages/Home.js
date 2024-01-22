@@ -6,13 +6,13 @@ import Footer from '../components/Footer';
 
 const Home = () => {
   return (
-    <div>
+    <>
         <div id="background"></div>
 	<div class="mobile-overlay"></div>
       <Header />
       <Main />
       <Footer />
-    </div>
+    </>
   );
 };
 

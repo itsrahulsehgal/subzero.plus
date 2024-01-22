@@ -11,7 +11,7 @@ const Footer = () => {
   <div className="foot-tr-2" />
   <div className="foot-tr-3" />
   <div className="footer-brand">
-    <a href="index.html">
+    <a href="/">
       <img className="footer-logo" src={logo} />
     </a>
   </div>
@@ -69,7 +69,7 @@ const Footer = () => {
   </div>
   <div className="copyright">
     <p>
-      Copyright © <a href="index.html">SUBZERO+ Finance</a> 2023.
+      Copyright © <a href="/">SUBZERO+ Finance</a> 2023.
     </p>
   </div>
 </footer>

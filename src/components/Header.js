@@ -1,8 +1,13 @@
 // Header.js
-import React from 'react';
+import React, {useState} from 'react';
 import logo from '../img/logo.svg'
-
 const Header = () => {
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+  const handleToggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
+
   return (
     <header>
     <div className="container">
@@ -27,13 +32,13 @@ const Header = () => {
         </button>
       </div>
       <div className="logo">
-        <a href="index.html">
+        <a href="/">
           <img src={logo} />
         </a>
       </div>
       <div className="navigation">
         <div className="navigation-spacer" />
-        <a href="index.html#get-started">Get Started</a>
+        <a href="#get-started">Get Started</a>
         <a href="https://zswap.plus/" target="_blank">
           Swap
         </a>
